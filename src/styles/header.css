@@ -14,8 +14,9 @@
 }
 
 .header-logo img{
-    height: 45px;
+    height: 60px;
     width: auto;
+    align-self: center;
 }
 
 .header-menu li{
