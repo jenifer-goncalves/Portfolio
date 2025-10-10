@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
 
 .album-card{
     position: relative;
@@ -22,7 +25,6 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(44, 153, 99, 0.75);
     color: white;
     display: flex;
     flex-direction: column;
@@ -37,8 +39,15 @@
     transition: opacity 0.4s ease;
 }
 
+.cor-debut{
+  background: rgba(44, 153, 99, 0.75);
+  font-family: "Corinthia";
+}
+
+
 .cor-fearless{
   background: rgba(219, 178, 43, 0.75);
+  font-family: "Tenor+Sans";
 
 }
 
@@ -52,12 +61,13 @@
 }
 
 .album-info h3 {
-    font-size: 1.5em;
+    font-size: 2.5em;
     margin: 0 0 10px 0;
     color: #fff;
 }
   
   .album-info p {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     line-height: 1.4;
     margin: 5px 0 0 0;
