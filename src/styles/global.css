@@ -1,4 +1,5 @@
 @import url(./header.css);
+@import url(./cards.css);
 
 
 html{ 
@@ -10,6 +11,8 @@ body{
     font-family: Arial, Helvetica, sans-serif
 }
 
+
+
 #content-discografia{
     background-color: #e8d7d7;
     padding: 40px 20px; 
@@ -17,7 +20,7 @@ body{
 }
 
 #content-discografia h2{
-    color: blue;
+    color: rgb(153, 153, 231);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -40,4 +43,9 @@ body{
 .albuns img:hover {
   transform: scale(1.08); 
   cursor: pointer;
+}
+
+#content-the-eras-tour{
+    background-color: black;
+    color: #FFF;
 }
