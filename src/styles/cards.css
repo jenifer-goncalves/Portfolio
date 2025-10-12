@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
 .album-card{
     position: relative;
@@ -48,13 +53,59 @@
 
 .cor-fearless{
   background: rgba(219, 178, 43, 0.75);
-  font-family: "Tenor+Sans";
+  font-family: "Tenor Sans";
 
+}
+
+.cor-speak-now{
+  background: rgba(102, 5, 102, 0.75);
+  font-family: "Allura";
 }
 
 .cor-red{
   background: rgba(143, 27, 27, 0.75);
   font-family: "Anton";
+}
+
+.cor-1989{
+  background: rgba(51, 153, 201, 0.75);
+  font-family: "Permanent Marker";
+}
+
+.cor-reputation{
+  background: rgba(10, 10, 10, 0.75);
+  font-family: "UnifrakturMaguntia";
+}
+
+.cor-lover{
+  background: rgba(236, 106, 145, 0.75);
+}
+
+.cor-folklore{
+  background: rgba(124, 125, 126, 0.75);
+  font-family: "IM Fell DW Pica";
+  font-style: italic;
+}
+
+.cor-evermore{
+  background: rgba(179, 67, 16, 0.75);
+  font-family: "IM Fell DW Pica";
+  font-style: italic;
+}
+
+.cor-midnights{
+  background: rgba(12, 13, 56, 0.75);
+  font-family: "Inter";
+}
+
+.cor-ttpd{
+  background: rgba(231, 232, 236, 0.75);
+  font-family: "Libre Baskerville";
+  font-size: 1em;
+}
+
+.cor-tloasg{
+  background: rgba(255, 109, 11, 0.75);
 }
 
 .album-card:hover img {
@@ -67,7 +118,6 @@
 }
 
 .album-info h3 {
-    font-size: 2.5em;
     margin: 0 0 10px 0;
     color: #fff;
 }
