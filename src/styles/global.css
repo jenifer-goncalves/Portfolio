@@ -1,28 +1,28 @@
-@import url(./header.css);
-@import url(./cards.css);
-
-
 
 html{ 
     scroll-behavior: smooth;  
 }
 
 body{
-    height: 100vh;
-    font-family: Arial, Helvetica, sans-serif
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
+#inicio{
 
+}
 
 #content-discografia{
     background-color: #e8d7d7;
-    padding: 40px 20px; 
+    padding: 60px 20px 80px 20px;
     text-align: center;
 }
 
 #content-discografia h2{
     color: rgb(153, 153, 231);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 40px;
 }
 
 .albuns{
@@ -32,18 +32,6 @@ body{
     gap: 20px;
     max-width: 1200px; 
     margin: 0 auto;
-}
-
-.albuns img{
-  width: 100%;
-  height: auto; 
-  border-radius: 8px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.albuns img:hover {
-  transform: scale(1.08); 
-  cursor: pointer;
 }
 
 #content-the-eras-tour{

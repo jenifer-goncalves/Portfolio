@@ -103,7 +103,12 @@
 .cor-ttpd{
   background: rgba(231, 232, 236, 0.75);
   font-family: "Libre Baskerville";
-  font-size: 1em;
+}
+
+#ttpd-card .album-info h3 {
+  font-size: 1.1em;
+  line-height: 1.2;
+  padding: 0 5px;
 }
 
 .cor-tloasg{
