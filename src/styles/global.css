@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap');
+
 
 html{ 
     scroll-behavior: smooth;  
@@ -9,9 +11,19 @@ body{
     margin: 0;
 }
 
-#inicio{
-
+.inicio{
+    background-color: rgb(244, 245, 185);
+    font-family: "Libre Bodoni";
 }
+
+#content-sobre-ela{
+    background-color: rgb(153, 201, 223);
+}
+
+#content-carreira{
+    background-color: rgb(235, 140, 235);
+}
+
 
 #content-discografia{
     background-color: #e8d7d7;
@@ -20,9 +32,11 @@ body{
 }
 
 #content-discografia h2{
-    color: rgb(153, 153, 231);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-bottom: 40px;
+    color: rgb(65, 1, 1);
+    font-family: "Libre Bodoni";
+    font-size: 2.5em;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .albuns{
@@ -33,6 +47,11 @@ body{
     max-width: 1200px; 
     margin: 0 auto;
 }
+
+#content-premios{
+    background-color: darkred;
+}
+
 
 #content-the-eras-tour{
     background-color: black;
