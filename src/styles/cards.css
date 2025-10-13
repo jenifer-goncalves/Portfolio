@@ -115,6 +115,12 @@
   background: rgba(255, 109, 11, 0.75);
 }
 
+#tloasg-card .album-info h3{
+  font-size: 1.5em;
+  line-height: 1.2;
+  padding: 0 5px;
+}
+
 .album-card:hover img {
     transform: scale(1.1); 
     filter: blur(4px) brightness(0.8); 
