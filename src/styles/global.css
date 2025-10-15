@@ -12,12 +12,44 @@ body{
 }
 
 .inicio{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 25px;
+    padding: 20px;
+    min-height: 400px;
     background-color: rgb(244, 245, 185);
     font-family: "Libre Bodoni";
 }
 
+.img-capa{
+    order: 2;
+    width: 415px;
+    margin-left: 20px;
+
+}
+
+.img-capa img{
+    max-width: 100%; 
+    height: auto;   
+    display: block;
+
+}
+
+.inicio-texto{
+    color: rgb(202, 96, 63);
+    text-align: center;
+    font-size: 4em;
+}
+
 #content-sobre-ela{
     background-color: rgb(153, 201, 223);
+}
+
+#content-sobre-ela h2{
+    color: rgb(6, 6, 58);
+    font-family: "Libre Bodoni";
+    font-size: 3em;
 }
 
 #content-carreira{
@@ -67,7 +99,7 @@ body{
     flex-direction: column;
     order: 2;
     /* float: right; */
-    padding: 40px;
+    padding: 60px;
 }
 
 
