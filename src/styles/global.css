@@ -54,17 +54,19 @@ body{
 
 
 #content-the-eras-tour{
-   
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
     background-color: black;
     color: #FFF;
-    text-align: right;
 }
 
 
 .texto{
     display: flex;
     flex-direction: column;
-    float: right;
+    order: 2;
+    /* float: right; */
     padding: 40px;
 }
 
@@ -85,7 +87,11 @@ body{
     max-width: 600px;
 }
 
-.show{
+.lover-era{
     display: flex;
     justify-content: flex-start;
+}
+
+.the-man{
+    
 }

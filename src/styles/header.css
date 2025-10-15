@@ -7,16 +7,19 @@
     height: 60px;
     padding: 10px;
     background-color: rgb(211, 102, 153);
+    
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     z-index: 1;
 }
 
 .header-logo img{
+    position: absolute;
+    top: 0px;
+    left: 20px;
     height: 60px;
     width: auto;
-    align-self: center;
 }
 
 .header-menu li{
