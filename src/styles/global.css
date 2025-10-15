@@ -54,6 +54,38 @@ body{
 
 
 #content-the-eras-tour{
+   
     background-color: black;
     color: #FFF;
+    text-align: right;
+}
+
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    padding: 40px;
+}
+
+
+#content-the-eras-tour h2{
+    text-align: center;
+    font-family: "Libre Bodoni";
+    font-weight: 700;
+    font-size: 4em;
+    color: rgb(218, 42, 124); 
+    
+}
+
+#content-the-eras-tour p{
+    font-size: 1em;
+    text-align: justify;
+    line-height: 1.5;
+    max-width: 600px;
+}
+
+.show{
+    display: flex;
+    justify-content: flex-start;
 }
