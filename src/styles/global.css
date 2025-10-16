@@ -11,6 +11,7 @@ body{
     margin: 0;
 }
 
+
 .inicio{
     display: flex;
     justify-content: space-between; 
@@ -79,6 +80,7 @@ body{
 }
 
 .albuns{
+    /* O display grid vai pegar a quantidade de itens que tenho no meu layout e dividir igualmente */
     display: grid;
     /* Vai criar quatro colunas do mesmo tamanho. */
     grid-template-columns: repeat(4, 1fr); 
@@ -93,9 +95,10 @@ body{
 
 
 #content-the-eras-tour{
+    min-height: 250vh;
+    position: relative;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
     background-color: black;
     color: #FFF;
 }
@@ -105,7 +108,7 @@ body{
     display: flex;
     flex-direction: column;
     order: 2;
-    /* float: right; */
+    float: right;
     padding: 60px;
 }
 
@@ -127,11 +130,28 @@ body{
 }
 
 .lover-era{
-    display: flex;
-    justify-content: flex-start;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
 }
 
 .the-man{
-    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 460px;
     
+}
+
+.lover-dourado{
+    position: absolute;
+    top: 550px;
+    right: 260px;
+
+}
+
+.palco{
+    position: absolute;
+    top: 560px;
+    left: 70px;
 }
