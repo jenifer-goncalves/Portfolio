@@ -125,5 +125,6 @@ body{
 }
 
 .the-man{
+    display: flex;
     
 }
