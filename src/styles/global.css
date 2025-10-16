@@ -95,10 +95,10 @@ body{
 
 
 #content-the-eras-tour{
-    min-height: 250vh;
-    position: relative;
+    min-height: 300vh;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     background-color: black;
     color: #FFF;
 }
@@ -129,29 +129,68 @@ body{
     max-width: 600px;
 }
 
+.imagens-container{
+    position: relative;
+
+}
+
 .lover-era{
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 10px;
+    left: 10px;
 
+}
+
+.lover-era img{
+    width: 320px;
+    height: auto;
+}
+
+.legenda-img{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .the-man{
     position: absolute;
-    top: 20px;
-    left: 460px;
+    top: 30px;
+    left: 350px;
     
+}
+
+.the-man img{
+    width: 310px;
+    height: auto;
+
 }
 
 .lover-dourado{
     position: absolute;
-    top: 550px;
-    right: 260px;
+    top: 320px;
+    left: 350px;
+
+}
+
+.lover-dourado img{
+    width: 330px;
 
 }
 
 .palco{
     position: absolute;
-    top: 560px;
-    left: 70px;
+    top: 305px;
+    left: 700px;
+}
+
+.palco img{
+    width: 620px;
+
+}
+
+.texto-eras{
+    text-align: center;
+    font-family: "Libre Bodoni";
+    max-width: 600px;
+    align-items: center;
 }
