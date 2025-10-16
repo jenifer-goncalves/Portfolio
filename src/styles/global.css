@@ -18,7 +18,7 @@ body{
     margin-top: 25px;
     padding: 20px;
     min-height: 400px;
-    background-color: rgb(244, 245, 185);
+    background-color: rgb(251, 252, 222);
     font-family: "Libre Bodoni";
 }
 
@@ -37,13 +37,13 @@ body{
 }
 
 .inicio-texto{
-    color: rgb(202, 96, 63);
+    color: rgb(192, 10, 80);
     text-align: center;
     font-size: 4em;
 }
 
 #content-sobre-ela{
-    background-color: rgb(153, 201, 223);
+    background-color: #A1B5C7;
 }
 
 #content-sobre-ela h2{
@@ -53,7 +53,7 @@ body{
 }
 
 #content-carreira{
-    background-color: rgb(235, 140, 235);
+    background-color: rgb(233, 178, 233);
 }
 
 
