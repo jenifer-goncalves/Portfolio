@@ -18,7 +18,7 @@ body{
     margin-top: 25px;
     padding: 20px;
     min-height: 400px;
-    background-color: rgb(251, 252, 222);
+    background-color: rgb(253, 249, 202);
     font-family: "Libre Bodoni";
 }
 
@@ -44,6 +44,13 @@ body{
 
 #content-sobre-ela{
     background-color: #A1B5C7;
+}
+
+.img-biografia{
+    display: flex;
+    padding: 50px;
+    margin-left: 70px;
+
 }
 
 #content-sobre-ela h2{
