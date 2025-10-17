@@ -1,0 +1,32 @@
+
+footer{
+    background-color: #4b4848; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+
+}
+
+.footer-section{
+    margin: 0 10px;
+
+}
+
+.footer-section-links{
+    list-style-type: none;
+    text-align: left;
+}
+
+.footer-section-redes{
+
+}
+
+.footer-logo{
+    width: 60px;
+}
