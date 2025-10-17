@@ -45,23 +45,56 @@ body{
 
 #content-sobre-ela{
     background-color: #A1B5C7;
+    padding: 2px;
+}
+
+.texto-biografia{
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    float: right;
+    padding: 60px;
+}
+
+.texto-biografia h2{
+    color: rgb(6, 6, 58);
+    font-family: "Libre Bodoni";
+    font-size: 5em;
+    text-align: center;
+}
+
+.texto-biografia p{
+    font-size: 1em;
+    text-align: justify;
+    line-height: 1.5;
+    max-width: 600px;
 }
 
 .img-biografia{
     display: flex;
     padding: 50px;
-    margin-left: 70px;
-
+    margin-left: 50px;
 }
 
-#content-sobre-ela h2{
-    color: rgb(6, 6, 58);
-    font-family: "Libre Bodoni";
-    font-size: 3em;
+
+.img-biografia{
+    position: relative;
+}
+
+.img-biografia img{
+    width: 450px;
 }
 
 #content-carreira{
     background-color: rgb(233, 178, 233);
+}
+
+.img-carreira{
+    position: relative;
+}
+
+.img-carreira img{
+    width: 420px;
 }
 
 
@@ -193,4 +226,5 @@ body{
     font-family: "Libre Bodoni";
     max-width: 600px;
     align-items: center;
+    color: rgb(226, 177, 13);
 }
