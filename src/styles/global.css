@@ -193,10 +193,16 @@ body{
 }
 
 .texto-premios p{
+    color: #fff;
     font-size: 1em;
     text-align: justify;
     line-height: 1.5;
     max-width: 600px;
+}
+
+.premios-marcador{
+    color: #fff;
+    text-decoration: dashed;
 }
 
 .img-premios{
