@@ -231,90 +231,74 @@ body{
 
 }
 
-.lover-era{
+.fearless-era{
     position: absolute;
     top: 10px;
     left: 10px;
 
 }
 
-.lover-era img{
+.fearless-era img{
     width: 320px;
-    height: auto;
+
 }
 
-.legenda-img{
-    font-size: 25px;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-.the-man{
+.reputation-era{
     position: absolute;
     top: 30px;
     left: 350px;
-    
 }
 
-.the-man img{
+.reputation-era img{
     width: 310px;
     height: auto;
 
 }
 
-.lover-dourado{
+.ano-era{
+    position: absolute;
+    top: 30px;
+    left: 350px;
+
+}
+
+.ano-era img{
+    width: 250px;
+}
+
+.midnights-era{
     position: absolute;
     top: 320px;
     left: 350px;
 
 }
 
-.lover-dourado img{
+.midnights-era img{
     width: 330px;
 
 }
 
-.palco{
+.lover-era{
     position: absolute;
     top: 305px;
     left: 700px;
 }
 
-.palco img{
+.lover-era img{
     width: 620px;
 
 }
 
-#eras-conteudo{
-    min-height: 100vh;
-    background-color: black;
-    padding: 120px 0;
+.ttpd-era{
+    position: absolute;
+    top: 305px;
+    left: 700px;
 
 }
 
-.texto-eras{
-    text-align: center;
-    padding: 100px 0;
-
+.ttpd-era img{
+    width: 700px;
 }
-
-.texto-eras h2{
-    font-family: "Libre Bodoni", serif;
-    font-size: 4em;
-    color: #E6B953;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    margin: 0;
-}
-
-.texto-eras p{
-    font-size: 1em;
-    text-align: justify;
-    line-height: 1.5;
-    max-width: 600px;
-
-}
-
 
 footer{
     background-color: #4b4848; 
@@ -334,4 +318,8 @@ footer{
 .footer-section{
     margin: 0 10px;
 
+}
+
+.footer-logo{
+    text-align: left;
 }
