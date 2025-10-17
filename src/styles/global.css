@@ -37,7 +37,7 @@ body{
 
 }
 
-.inicio-texto{
+.texto-inicio{
     color: rgb(192, 10, 80);
     text-align: center;
     font-size: 4em;
@@ -71,14 +71,10 @@ body{
 }
 
 .img-biografia{
+    position: relative;
     display: flex;
     padding: 50px;
     margin-left: 50px;
-}
-
-
-.img-biografia{
-    position: relative;
 }
 
 .img-biografia img{
@@ -87,14 +83,42 @@ body{
 
 #content-carreira{
     background-color: rgb(233, 178, 233);
+    padding: 2px;
+}
+
+.texto-carreira{
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    float: left;
+    padding: 60px;
+}
+
+.texto-carreira h2{
+    color: rgb(116, 15, 99);
+    font-family: "Libre Bodoni";
+    font-size: 5em;
+    text-align: center;
+
+}
+
+.texto-carreira p{
+    font-size: 1em;
+    text-align: justify;
+    line-height: 1.5;
+    max-width: 600px;
 }
 
 .img-carreira{
     position: relative;
+    display: flex;
+    padding: 10px;
+    margin-left: 700px;
+    
 }
 
 .img-carreira img{
-    width: 420px;
+    width: 450px;
 }
 
 
@@ -124,20 +148,58 @@ body{
 
 #content-premios{
     background-color: darkred;
+    padding: 20px;
+}
+
+.texto-premios{
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    float: left;
+    padding: 60px;
+
+}
+
+.texto-premios h2{
+    color: #FDB80C;
+    font-family: "Libre Bodoni";
+    font-size: 5em;
+    text-align: center;
+}
+
+.texto-premios p{
+    font-size: 1em;
+    text-align: justify;
+    line-height: 1.5;
+    max-width: 600px;
+}
+
+.img-premios{
+    position: relative;
+    display: flex;
+    padding: 10px;
+    margin-left: 700px;
+
+}
+
+.img-premios img{
+    width: 450px;
+    border-radius: 20px;
 }
 
 
 #content-the-eras-tour{
-    min-height: 300vh;
+    height: 100vh;
     display: flex;
+    background-color: black;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: black;
     color: #FFF;
+    padding-bottom: 100px;
 }
 
 
-.texto{
+.texto-the-eras-tour{
     display: flex;
     flex-direction: column;
     order: 2;
@@ -146,7 +208,7 @@ body{
 }
 
 
-#content-the-eras-tour h2{
+.texto-the-eras-tour h2{
     text-align: center;
     font-family: "Libre Bodoni";
     font-weight: 700;
@@ -155,7 +217,7 @@ body{
     
 }
 
-#content-the-eras-tour p{
+.texto-the-eras-tour p{
     font-size: 1em;
     text-align: justify;
     line-height: 1.5;
@@ -221,10 +283,27 @@ body{
 
 }
 
+#eras-conteudo{
+    background-color: black;
+    padding: 40px;
+
+}
+
 .texto-eras{
     text-align: center;
-    font-family: "Libre Bodoni";
-    max-width: 600px;
-    align-items: center;
-    color: rgb(226, 177, 13);
+    padding: 100px 0;
+
+}
+
+.texto-eras h2{
+    font-family: "Libre Bodoni", serif;
+    font-size: 4em;
+    color: #E6B953;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 0;
+}
+
+.texto-eras p{
+
 }
