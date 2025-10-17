@@ -14,13 +14,34 @@ body{
 
 .inicio{
     display: flex;
-    justify-content: space-between; 
-    align-items: center; 
+    align-items: space-between; 
     margin-top: 25px;
     padding: 20px;
     min-height: 400px;
     background-color: rgb(253, 249, 202);
+}
+
+.texto-inicio{
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    float: left;
+    padding: 60px;
+}
+
+.texto-inicio h2{
     font-family: "Libre Bodoni";
+    font-size: 4em;
+    color: rgb(192, 10, 80);
+    text-align: center;
+    
+
+}
+
+.texto-inicio p{
+    color: rgb(61, 59, 60);
+    text-align: center;
+    font-size: 1em;
 }
 
 .img-capa{
@@ -32,16 +53,11 @@ body{
 
 .img-capa img{
     max-width: 100%; 
-    height: auto;   
-    display: block;
+
 
 }
 
-.texto-inicio{
-    color: rgb(192, 10, 80);
-    text-align: center;
-    font-size: 4em;
-}
+
 
 #content-sobre-ela{
     height: 100vh;
@@ -71,6 +87,12 @@ body{
     max-width: 600px;
 }
 
+.hobbies{
+    font-size: 2em;
+    color: black;
+    
+}
+
 .img-biografia{
     position: relative;
     display: flex;
@@ -83,8 +105,9 @@ body{
 }
 
 #content-carreira{
+   
     background-color: rgb(233, 178, 233);
-    padding: 2px;
+    padding: 10px;
 }
 
 .texto-carreira{
@@ -233,7 +256,7 @@ body{
 
 .fearless-era{
     position: absolute;
-    top: 10px;
+    top: 5px;
     left: 10px;
 
 }
@@ -255,20 +278,20 @@ body{
 
 }
 
-.ano-era{
+.folklore-era{
     position: absolute;
-    top: 30px;
-    left: 350px;
+    top: 450px;
+    left: 10px;
 
 }
 
-.ano-era img{
-    width: 250px;
+.folklore-era img{
+    width: 320px;
 }
 
 .midnights-era{
     position: absolute;
-    top: 320px;
+    top: 470px;
     left: 350px;
 
 }
@@ -291,13 +314,13 @@ body{
 
 .ttpd-era{
     position: absolute;
-    top: 305px;
-    left: 700px;
+    top: 350px;
+    left: 1400px;
 
 }
 
 .ttpd-era img{
-    width: 700px;
+    width: 500px;
 }
 
 footer{
