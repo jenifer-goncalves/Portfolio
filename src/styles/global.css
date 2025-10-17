@@ -44,6 +44,7 @@ body{
 }
 
 #content-sobre-ela{
+    height: 100vh;
     background-color: #A1B5C7;
     padding: 2px;
 }
@@ -147,6 +148,7 @@ body{
 }
 
 #content-premios{
+    height: 100vh;
     background-color: darkred;
     padding: 20px;
 }
@@ -313,16 +315,23 @@ body{
 
 }
 
-.eras-images{
-    position: relative;
+
+footer{
+    background-color: #4b4848; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center;
+
 }
 
-.fearless-era{
-    position: absolute;
-    bottom: -280px;
-    left: 860px;
+.footer-cotainer{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+
 }
 
-.fearless-era img{
-    width: 320px;
+.footer-section{
+    margin: 0 10px;
+
 }
