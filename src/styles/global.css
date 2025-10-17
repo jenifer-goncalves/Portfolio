@@ -189,7 +189,7 @@ body{
 
 
 #content-the-eras-tour{
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     background-color: black;
     justify-content: space-between;
@@ -284,8 +284,9 @@ body{
 }
 
 #eras-conteudo{
+    min-height: 100vh;
     background-color: black;
-    padding: 40px;
+    padding: 120px 0;
 
 }
 
@@ -305,5 +306,23 @@ body{
 }
 
 .texto-eras p{
+    font-size: 1em;
+    text-align: justify;
+    line-height: 1.5;
+    max-width: 600px;
 
+}
+
+.eras-images{
+    position: relative;
+}
+
+.fearless-era{
+    position: absolute;
+    bottom: -280px;
+    left: 860px;
+}
+
+.fearless-era img{
+    width: 320px;
 }
